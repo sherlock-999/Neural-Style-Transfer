@@ -7,6 +7,16 @@
 
 ---
 
+## **Description**  
+This project implements the **Neural Style Transfer** technique described in the paper *Image Style Transfer Using Convolutional Neural Networks*. The model takes a **content image** and a **style image** and synthesizes an output image that retains the structure of the content while incorporating the style patterns.  
+
+Two **optimisers** are used for comparison:  
+- **Adam Optimizer**   
+- **L-BFGS Optimizer**
+
+
+---
+
 ## **Input**  
 
 <p align="left">
@@ -31,13 +41,5 @@
 ### **Using L-BFGS Optimizer**  
 ![L-BFGS Optimizer Output](https://github.com/user-attachments/assets/5b3e1ddd-446e-4eee-91ca-da34528d7c15)  
 
----
-
-## **Description**  
-This project implements the **Neural Style Transfer** technique described in the paper *Image Style Transfer Using Convolutional Neural Networks*. The model takes a **content image** and a **style image** and synthesizes an output image that retains the structure of the content while incorporating the style patterns.  
-
-Different **optimizers** are used:  
-- **Adam Optimizer:** Fast convergence but may get stuck in local minima.  
-- **L-BFGS Optimizer:** Generally produces sharper and better-quality results.  
 
 ---
