@@ -10,7 +10,7 @@
 ## **Description**  
 This project implements the **Neural Style Transfer** technique described in the paper *Image Style Transfer Using Convolutional Neural Networks*. The model takes a **content image** and a **style image** and synthesizes an output image that retains the structure of the content while incorporating the style patterns.  
 
-Two **optimisers** are used for comparison:  
+Two **optimizers** are used for comparison:  
 - **Adam Optimizer**   
 - **L-BFGS Optimizer**
 
